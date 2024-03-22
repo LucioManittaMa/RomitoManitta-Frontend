@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    background-color: rgb(177, 192, 255);
+    font-family: "Roboto", sans-serif   ;
+}
+
+.HomeTitle {
+    max-width: 200px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.HomeList {
+    display: flex;
+    margin-left: 30px;
+    list-style-type: none;
+    margin-right: 2rem;
+    column-gap: 1rem;
+}
+
+li {
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 5px;
+}
