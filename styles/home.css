@@ -5,13 +5,14 @@
 }
 
 .header {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid color white;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
     height: 6rem;
-    background-color: rgb(177, 192, 255);
+    background-color: rgb(150, 200, 155);
     font-family: "Roboto", sans-serif   ;
 }
 
@@ -31,5 +32,28 @@
 .main {
     display: flex;
     flex-direction: row;
-    width: 1365px;    
+    width: 100%;
+}
+
+.signin,
+.signup {
+    background-color: transparent; 
+    border: 2px solid #175319; 
+    color: #175319; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px; 
+    gap: 2px;
+    margin-right: 1rem;
+}
+
+.signin:hover,
+.signup:hover {
+    background-color: #175319; 
+    color: rgb(255, 255, 255); 
 }
