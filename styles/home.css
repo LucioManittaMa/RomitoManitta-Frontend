@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.titleImg, .imgLink {
+    padding: 20px;
+    width: 110px;
+}
+
 .header {
     border-bottom: 1px solid color white;
     display: flex;
@@ -38,18 +43,18 @@
 .signin,
 .signup {
     background-color: transparent; 
-    border: 2px solid #175319; 
+    border: 1px solid #175319; 
     color: #175319; 
-    padding: 10px 20px;
+    padding: 8px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
+    font-size: 13px;
+    margin: 2px 4px;
     cursor: pointer;
     border-radius: 20px; 
-    gap: 2px;
-    margin-right: 1rem;
+    gap: 1px;
+    margin-right: 10px;
 }
 
 .signin:hover,
@@ -57,3 +62,30 @@
     background-color: #175319; 
     color: rgb(255, 255, 255); 
 }
+
+.barra-productos {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.barra-productos h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.barra-productos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.barra-productos ul li {
+    margin-bottom: 5px;
+}
+
+.barra-productos ul li:hover {
+    cursor: pointer;
+    color: #007bff;
+}
+
+
