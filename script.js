@@ -9,7 +9,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}    
     slides[slideIndex-1].style.display = "block";  
-    setTimeout(showSlides, 5000); // Cambia la imagen cada 5 segundos (5000 milisegundos)
+    setTimeout(showSlides, 7000); // Cambia la imagen cada 5 segundos (5000 milisegundos)
 }
 
 function plusSlides(n) {

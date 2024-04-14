@@ -182,6 +182,7 @@
 .slide {
     display: none;
     width: 100%;
+    opacity: 0;
     transition: opacity 1s ease-in-out; 
 }
 
@@ -190,7 +191,7 @@
 }
 
 @keyframes fade {
-    from { opacity: 0.4; }
+    from { opacity: 0; }
     to { opacity: 1; }
 }
 
