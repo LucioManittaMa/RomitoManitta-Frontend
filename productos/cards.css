@@ -1,0 +1,52 @@
+.carta{
+    text-align: center;
+    border: none; 
+    border-radius: 40px;
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(211, 226, 212);
+    transition: 0.4s;
+  }
+  
+  .imagen{
+    height: 100px;
+    width: 90px ;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .texto1{
+    
+    align-items: center;
+  }
+  
+  .titulo{
+    font-weight: 600;
+  }
+  
+  .precio{
+    font-weight: 600;
+  }
+  
+  .boton1{
+    background-color: rgb(251, 238, 238);
+    border: none;
+    border-radius: 100px;
+    color: #167420;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    transition: 0.4s;
+  }
+  
+  .carta:hover {
+    transform: scale(1.1);
+    background-color: rgb(202, 240, 174);
+  }
+  
+  .boton1:hover{
+    transform: scale(1.2,1.2);
+  }
