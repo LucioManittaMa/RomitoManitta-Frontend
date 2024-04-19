@@ -61,12 +61,14 @@
     border-radius: 20px; 
     gap: 1px;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .signin:hover,
 .signup:hover {
     background-color: #167420; 
     color: rgb(255, 255, 255); 
+    text-decoration: none;
 }
 
 .container {
@@ -198,21 +200,23 @@
 @media only screen and (max-width: 768px) {
     .slideshow-container {
         max-width: 100%; 
-        margin: 0 15%;
+        margin: 0 200px;
     }
 }
 
- @media (max-width:768px) { 
+@media only screen and (max-width: 425px) {
+    .slideshow-container {
+        max-width: 100%; 
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:768px) {
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         list-style: none;
-    }
-    
-    .titleImg, .imgLink {
-        padding: 25px;
-        width: 100px;
     }
     
     .body {
@@ -348,11 +352,11 @@
 
      .card{
         height: 80px;
-        width: 80px;
+        width: 82px;
         background-color: #eaeced;
         color: #dddddd;
         border-radius: 10px;
-        padding: 4px;
+        padding: 0px;
         transition: 0.4s;
         margin: 10px;
         box-shadow: 0px 3px 8px #000;
@@ -375,8 +379,19 @@
       
       .seccion{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between ;
         margin: 20px;
       }
+}
+
+@media only screen and (max-width: 425px) {
+    .seccion {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 }
