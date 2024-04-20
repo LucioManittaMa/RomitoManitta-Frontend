@@ -4,7 +4,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 80px;
-    background-color: #5f9e62;
+    background: linear-gradient(to right,#68b66c, #2e5333);
 }
 
 .titleImg{
@@ -20,7 +20,7 @@ main{
 	font-weight: 300;
 	line-height: 1.7;
 	color: rgb(150, 200, 155);
-	background-color:#5f9e62;
+	background: linear-gradient(to right,#68b66c, #2e5333);
 overflow: hidden;
 }
 
@@ -121,7 +121,7 @@ display: none;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transition: all 600ms ease-out; 
-  border: 2px solid #5f9e62;
+  border: none;
   border-radius: 10px;
 }
 

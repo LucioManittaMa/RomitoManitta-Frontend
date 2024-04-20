@@ -12,6 +12,3 @@ function showSlides() {
     setTimeout(showSlides, 7000); 
 }
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
