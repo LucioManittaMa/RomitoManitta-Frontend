@@ -5,6 +5,7 @@ header{
     height: 60px;
     background-color: #5f9e62;
 }
+
 .titleImg{
     margin-top: 100px;
     padding: 12px;
@@ -12,6 +13,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 main{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
@@ -20,34 +22,43 @@ main{
 	background-color:#5f9e62;
 overflow: hidden;
 }
+
 a:hover {
 	text-decoration: none;
 }
+
 .link {
   color: rgb(150, 200, 155);
 }
+
 .link:hover {
   color: #020305;
 }
+
 p {
   font-weight: 500;
   font-size: 14px;
 }
+
 h4 {
   font-weight: 600;
 }
+
 h6 span{
   padding: 0 20px;
   font-weight: 700;
 }
+
 .section{
     position: relative;
     width: 100%;
     display: block;
   }
+
   .full-height{
     min-height: 100vh;
   }
+
   .card-3d-wrap {
     position: relative;
     width: 440px;
@@ -58,6 +69,7 @@ h6 span{
     perspective: 800px;
     margin-top: 60px;
   }
+
   .card-3d-wrapper {
     width: 100%;
     height: 100%;
@@ -68,6 +80,7 @@ h6 span{
     border: 2px solid #5f9e62;
     border-radius: 10px;
   }
+
   .card-front, .card-back {
     width: 100%;
     height: 100%;
@@ -77,12 +90,15 @@ h6 span{
     border-radius: 6px;
     -webkit-transform-style: preserve-3d;
   }
+
   .card-back {
     transform: rotateY(180deg);
   }
+
   .checkbox:checked ~ .card-3d-wrap .card-3d-wrapper {
     transform: rotateY(180deg);
   }
+
   .center-wrap{
     position: absolute;
     width: 100%;
@@ -93,12 +109,14 @@ h6 span{
     z-index: 20;
     display: block;
   }
+
   .form-group{ 
     position: relative;
     display: block;
       margin: 0;
       padding: 0;
   }
+
   .form-style {
     padding: 13px 20px;
     padding-left: 55px;
@@ -117,12 +135,14 @@ h6 span{
     transition: all 200ms linear;
     box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
   }
+
   .form-style:focus,
   .form-style:active {
     border: none;
     outline: none;
     box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
   }
+
   .input-icon {
     position: absolute;
     top: 0;
@@ -152,11 +172,13 @@ h6 span{
     background-color: rgb(150, 200, 155);
     color: #000000;
   }
+
   .btn:hover{  
     background-color: #000000;
     color: rgb(150, 200, 155);
     box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
   }
+
   .titleImg{
     margin-top: 100px;
     padding: 12px;
