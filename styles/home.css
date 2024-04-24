@@ -11,7 +11,7 @@
 }
 
 .body {
-    font-family: "Roboto", sans-serif   ;
+    font-family: "Poppins", sans-serif   ;
     text-transform: capitalize;
 }
 
@@ -47,6 +47,7 @@
 
 .signin,
 .signup {
+    font-family: "Poppins" , sans-serif;
     background-color: transparent; 
     border: 1px solid #167420; 
     color: #167420; 
@@ -60,6 +61,7 @@
     border-radius: 20px; 
     gap: 1px;
     margin-right: 10px;
+    transition: all .2s ease;
 }
 
 .signin:hover,
@@ -90,6 +92,7 @@
 }
 
 .footer-links h4 {
+    font-family: "Poppins" , sans-serif;
     font-size: 20px;
     color: #000000;
     margin-bottom: 25px;
@@ -100,6 +103,7 @@
 }
 
 .footer-links ul li a { 
+    font-family: "Poppins" , sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: #323232;
@@ -174,8 +178,8 @@
 
  .slideshow-container {
     position: relative;
-    max-width: 800px; 
-    margin: 0 35%; 
+    left: 35%;
+    max-width: 500px; 
     overflow: hidden;
 }
 
@@ -206,10 +210,9 @@
     }
     
     .body {
-        font-family: "Roboto", sans-serif   ;
+        font-family: "Poppins", sans-serif   ;
         text-transform: capitalize;
     }
-    
     
     .header {
         border-bottom: 1px solid color white;
@@ -227,14 +230,6 @@
         padding: 16px;
         margin: 16px;
     }
-    
-    .HomeList {
-        display: flex;
-        margin-left: 30px;
-        list-style-type: none;
-        margin-right: 2rem;
-        column-gap: 1rem;
-    }
     .main {
         display: flex;
         flex-direction: row;
@@ -243,6 +238,7 @@
     
     .signin,
     .signup {
+        font-family: "Poppins" , sans-serif;
         background-color: transparent; 
         border: 1px solid #167420; 
         color: #167420; 
@@ -256,6 +252,7 @@
         border-radius: 20px; 
         gap: 1px;
         margin-right: 10px;
+        transition: all .1s ease;
     }
     
     .signin:hover,
@@ -285,6 +282,7 @@
     }
     
     .footer-links h4 {
+        font-family: "Poppins" , sans-serif;
         font-size: 20px;
         color: #000000;
         margin-bottom: 25px;
@@ -295,6 +293,7 @@
     }
     
     .footer-links ul li a { 
+        font-family: "Poppins" , sans-serif;
         font-size: 18px;
         text-decoration: none;
         color: #323232;
@@ -309,6 +308,7 @@
     }
     
     .social-link a {
+        font-family: "Poppins", sans-serif;
         display: inline-block;
         min-height: 40px;
         width: 40px;
@@ -337,8 +337,65 @@
      }
 
      .card{
-        height: 80px;
-        width: 82px;
+        align-items: center;
+        height: 100px;
+        width: 100px;
+        background-color: #eaeced;
+        color: #dddddd;
+        border-radius: 10px;
+        padding: 0px;
+        transition: 0.4s;
+        margin: 10px;
+        box-shadow: 0px 3px 8px #000;
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-basis: 200;
+      }
+      
+      .card:hover{
+        transform: scale(1.05);
+        background-color: #aef8b6;
+        box-shadow: 10px, 10px, 10px, 10px rgb(0, 0, 0,);
+      }
+      
+      .card-img-top{
+        align-items: center;
+        height: 90px;
+        overflow: hidden;
+        object-fit: cover;
+      }
+      
+      .seccion{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between ;
+        margin: 20px;
+      }
+
+    .slideshow-container {
+        max-width: 100%; 
+        position: relative;
+        left: 12%;
+        margin: 0;
+        align-items: center;
+    }
+
+    .slide .fade{
+        max-width: 400px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 425px) {
+    .body{
+        width: 100%;
+    }
+
+    .card{
+        align-items: center;
+        height: 70px;
+        width: 70px;
         background-color: #eaeced;
         color: #dddddd;
         border-radius: 10px;
@@ -360,55 +417,42 @@
       }
       
       .card-img-top{
-        height: 80px;
+        align-items: center;
+        height: 70px;
         overflow: hidden;
         object-fit: cover;
       }
-      
-      .seccion{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between ;
-        margin: 20px;
-      }
 
     .slideshow-container {
-        max-width: 100%; 
-        position: relative;
-        left: 12%;
-        margin: 0;
-        align-items: center;
-    }
-
-    .slide .fade{
-        width: 400px;
-        height: 400px;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .slideshow-container {
         display: flex;
-        max-width: fit-content;
+        max-width: 100%;
         max-height: fit-content;
         padding: 40px;
         align-items: start; 
         margin: 0;
     }
 
+    .slide .fade {
+        max-width: 100%;
+    }
+
     .zapatillas {
-        width: 85%;
+        flex-grow: 1;
+        max-width: 85%;
 
     }
 
-
     .seccion {
-        margin-right: 10px;
+        margin-right: 0;
         display: flex;
         flex-wrap: wrap;
         padding: 0;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .header {
+        height: 110px;
     }
 
 }
