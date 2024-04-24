@@ -3,17 +3,17 @@
     border: none; 
     border-radius: 40px;
     height: max-content;
-    width: 190px;
-    padding: 10px;
+    width: 230px;
+    padding: 2px;
     margin: 10px;
-    background-color: rgb(211, 226, 212);
+    background-color: rgb(251, 255, 251);
     transition: 0.4s;
     flex-grow: 1;
   }
   
   .imagen{
-    height: 100px;
-    width: 90px ;
+    height: 250px;
+    width: 240px ;
     overflow: hidden;
     object-fit: cover;
     margin-bottom: 15px;

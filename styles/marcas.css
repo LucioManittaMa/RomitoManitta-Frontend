@@ -7,6 +7,8 @@
 
 body{
   font-family: "Roboto", sans-serif;
+  background-color: #e0e0e0;
+
 }
 
 .titleImg, .imgLink {
@@ -73,13 +75,14 @@ body{
   column-gap: 10px;
   margin: 20px;
   flex-wrap: wrap;
+
 }
 
 .marcas{
   display: flex;
   column-gap: 5px;
   margin: 8px;
-  column-gap: 40px;
+  column-gap: 20px;
 }
 
 .footer {
