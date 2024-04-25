@@ -13,29 +13,36 @@
     <link rel="icon" href="./Multimedia/UrbanLogo.ico">
 </head>
 <body>     
-    <header class="header">
+  <header class="header">
+    <div class="container1">
+      <div class="logo">
         <a href="./Landing.html" class="imgLink">
           <img src="./Multimedia/UrbanLogo.png" alt="Logo1" class="titleImg">
         </a> 
-        <div class="Navegador">
-            <nav class="navbar bg-body-cyan">
-                <div class="container-fluid">
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
-        </div>
-        <div class="Button">
-          <a href= "./login.html">
-            <button class="signin">Sign Up</button>
-          </a>
-          <a href="./login.html">
-            <button class="signup">Log In</button>
-          </a>
       </div>
-    </header>
+      <div class="search-button">
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+      </div>
+      <div class="account">
+        <div class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </div>
+        <div class="account-icon">
+          <i class="fas fa-user"></i>
+          <div class="account-dropdown">
+            <div class="dropdown-options">
+              <a href="#">Log in</a>
+              <a href="#">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
     <section class="seccion">
       <div class="card">
         <a href="#">
@@ -135,5 +142,6 @@
 
     </footer>
     <script src="script.js"></script>
+    <script src="./busqueda.js"></script>
 </body>
 </html>
