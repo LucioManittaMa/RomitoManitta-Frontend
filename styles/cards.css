@@ -3,12 +3,14 @@
     border: none; 
     border-radius: 40px;
     height: max-content;
-    width: 230px;
+    width: 233.9px;
     padding: 2px;
-    margin: 10px;
+    margin: 15px;
     background-color: rgb(251, 255, 251);
     transition: 0.4s;
     flex-grow: 1;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgb(151, 149, 149);
   }
   
   .imagen{
@@ -20,12 +22,12 @@
   }
   
   .texto1{
-    
     align-items: center;
   }
   
   .titulo{
-    font-weight: 600;
+    font-weight: 780;
+    
   }
   
   .precio{
@@ -38,9 +40,12 @@
     border-radius: 100px;
     color: #167420;
     font-size: 20px;
-    font-weight: 600;
-    padding: 5px;
+    font-weight: 800;
+    padding: 10px;
+    margin-bottom: 20px;
     transition: 0.4s;
+    margin: 10px ;
+    align-items: center;
   }
   
   .carta:hover {
@@ -51,3 +56,9 @@
   .boton1:hover{
     transform: scale(1.2,1.2);
   }
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+}

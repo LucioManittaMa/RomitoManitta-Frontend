@@ -6,10 +6,16 @@
   list-style: none;
 }
 
-
+.titulo_destacados{
+  font-size:60px;
+  font-weight: 100;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
 .body {
   font-family: "Roboto", sans-serif   ;
   text-transform: capitalize;
+
 }
 
 .signin,

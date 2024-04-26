@@ -4,11 +4,15 @@
   box-sizing: border-box;
   list-style: none;
 }
-
+.titulo_marca{
+  font-size:100px;
+  font-weight: 100;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
 body{
-  font-family: "Roboto", sans-serif;
+  
   background-color: #e0e0e0;
-
 }
 
 .titleImg, .imgLink {
@@ -139,4 +143,23 @@ body{
 
 .social-link a:hover { 
   background-color: #0fc3ff;
+}
+
+
+.oswald-sigma {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
