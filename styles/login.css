@@ -4,7 +4,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 80px;
-    background: linear-gradient(to right,#68b66c, #2e5333);
+    background: rgb(200, 236, 204);
 }
 
 .titleImg{
@@ -19,8 +19,8 @@ main{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	line-height: 1.7;
-	color: rgb(150, 200, 155);
-	background: linear-gradient(to right,#68b66c, #2e5333);
+	color:#78af7f;
+	background: rgb(200, 235, 204);
 overflow: hidden;
 }
 
@@ -29,7 +29,7 @@ a:hover {
 }
 
 .link {
-  color: rgb(150, 200, 155);
+  color:#78af7f;
 }
 
 .link:hover {
@@ -76,7 +76,7 @@ display: none;
   padding: 0;
   margin: 10px auto;
   cursor: pointer;
-  background-color: rgb(150, 200, 155);
+  background-color:#78af7f;
 }
 
 .checkbox:checked + label:before,
@@ -213,12 +213,12 @@ display: none;
   display: -ms-inline-flexbox;
   display: inline-flex;
   align-items: center;
-  background-color: rgb(150, 200, 155);
+  background-color:#78af7f;
   color: #000000;
 }
 
 .btn:hover{  
   background-color: #000000;
-  color: rgb(150, 200, 155);
+  color:#78af7f;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
