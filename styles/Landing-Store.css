@@ -720,7 +720,8 @@
 }
 
 .slide {
-  margin-top: 85px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   height: 500px;
   display: none;
   width: 100%;
