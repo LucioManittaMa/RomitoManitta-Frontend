@@ -15,6 +15,14 @@ header{
     justify-content: center;
 }
 
+@media (min-width: 768px) and (max-width: 1367px){
+  .titleImg {
+    margin-top: 50px;
+    padding: 6pxs;
+    width: 100px;
+  }
+}
+
 main{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;

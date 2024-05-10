@@ -146,6 +146,24 @@
   opacity: 0;
 }
 
+.dropdown-optionsUl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 5px;
+}
+
+#logout-button, #login-button, #signin-button {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
 .account-dropdown.show {
   display: block;
   opacity: 1;
@@ -161,25 +179,6 @@
   padding: 0;
   list-style: none;
 }
-
-/* .account-dropdown ul li {
-  display: block;
-  color: #333;
-  text-decoration: none;
-  font-size: 0.8rem;
-}
-
-.account-icon:hover .account-dropdown,
-.account-dropdown:hover {
-  display: block;
-  opacity: 1;
-  transition: all .3s ease-in-out;
-}
-
-.dropdown-options ul:hover li:hover {
-  scale: 1.07;
-  color: #000;
-} */
 
 .menu {
   position: relative;
@@ -330,12 +329,6 @@
     flex-shrink: 0;
   }
 
-  .right-section {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-
   .search-button {
     background-color: transparent;
     border: none;
@@ -468,11 +461,13 @@
   }
 
   #logout-button, #login-button, #signin-button {
+    font-family: "Poppins", sans-serif;
     display: block;
     color: #333;
     text-decoration: none;
     font-size: 0.8rem;
-    
+    margin: 0;
+    padding: 0;
   }
 
   .account-icon:hover .account-dropdown,
@@ -513,7 +508,7 @@
   .menu-list {
     position: absolute;
     top: 14px;
-    left: 535px;
+    left: 557px;
     font-family: "Poppins", sans-serif;
     font-size: 9px;
     background-color: rgb(150, 200, 155);
@@ -523,7 +518,7 @@
     display: none;
     transition: all 0.3s ease-in-out;
     opacity: 0;
-    max-width: 95px;
+    max-width: 90px;
   }
 
   .menu-button:focus +.menu-list,

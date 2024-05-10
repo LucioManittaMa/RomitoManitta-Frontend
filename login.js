@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       } else {
         console.log(`Login info: Email - ${email}, Password - ${password}`);
+        window.location.href = "./store.html"
       }
     }
   
@@ -42,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       } else {
         console.log(`Register info: Full Name - ${fullName}, Phone Number - ${phoneNumber}, Email - ${email}, Password - ${password}`);
+        window.location.href = "./store.html"
       }
     }
   });
