@@ -6,6 +6,8 @@
   list-style: none;
 }
 
+
+
 .titulo_destacados{
   font-size:60px;
   font-weight: 100;
@@ -236,4 +238,33 @@
     justify-content: space-between ;
     margin: 20px;
   }
+}
+
+.contenedor-boton{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.botonup{
+  margin: 20px;
+  margin-top: 800px;
+  width: 200px;
+  font-size: 25px;
+}
+
+.contenedor-botones{
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+}
+
+.cart{
+  border: none;
+  width: 50px;
+  margin-left: 2px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: transparent;
+  transition: 0.5s;
 }
